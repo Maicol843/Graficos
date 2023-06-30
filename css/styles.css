@@ -12,6 +12,12 @@ h1{
     text-align: center;
 }
 
+.contenedorGrafico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
 .left {
     max-width: 500px;
@@ -25,17 +31,20 @@ select {
     margin-bottom: 20px;
     padding: 5px;
     border-radius: 5px;
+    border-color: #378299;
     width: 100%;
+    color:black;
 }
 
 input {
     display: inline-block;
     border: none;
-    border-bottom: 1px solid #88d498;
+    border-bottom: 1px solid #378299;
     margin-bottom: 10px;
     width: 100%;
     padding: 5px;
     outline: none;
+    color:black;
 }
 
 #titulo {
@@ -53,9 +62,9 @@ input {
 
 .agregar {
     display: inline-block;
-    height: 30px;
-    width: 30px;
-    background-color: #18936f;
+    height: 40px;
+    width: 39px;
+    background-color: #378299;
     border: none;
     color: #fff;
     border-radius: 50%;
@@ -66,7 +75,7 @@ input {
 
 .crear-grafico {
     float: right;
-    background-color: #18936f;
+    background-color: #378299;
     border: none;
     padding: 10px;
     color: #fff;
